@@ -83,3 +83,7 @@ pytest --testdox -vvs tests/songs/
 ## repo
 
 https://github.com/Kenzie-Academy-Brasil-Developers/m5-bandkamp-generic-view-fernando-izar
+
+## deploy render
+
+https://bandkamp-fci-bandkamp.onrender.com
