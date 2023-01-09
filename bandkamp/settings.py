@@ -102,10 +102,10 @@ WSGI_APPLICATION = "bandkamp.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": os.getenv("POSTGRES_DB_NAME"),
-        "USER": os.getenv("POSTGRES_USERNAME"),
+        "NAME": os.getenv("POSTGRES_DB"),
+        "USER": os.getenv("POSTGRES_USER"),
         "PASSWORD": os.getenv("POSTGRES_PASSWORD"),
-        "HOST": "127.0.0.1",
+        "HOST": "192.168.144.1",
         "PORT": "5432",
     },
     "old_default": {
